@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222222;
+    padding: 20px;
+}
+
+.container {
+    background: rgb(167, 136, 136);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(214, 211, 0);
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    color: #000000;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#resultado {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#placar {
+    font-size: 18px;
+    margin-top: 10px;
+}
